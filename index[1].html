@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Samruddhi Shetty's personal portfolio — projects, skills, education and contact.">
+  <title>Samruddhi Shetty | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">S<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Contact me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Hi, I'm <span>Samruddhi</span><br>Shetty.</h1>
+        <p class="hero-lead">I’m an Artificial Intelligence and Data Science student who enjoys learning, building useful projects, and turning ideas into simple digital experiences.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↗</span></a><a class="button secondary" href="#contact">Let's connect</a></div>
+        <div class="hero-meta"><span>📍 India</span><span>✦ Curious mind, continuous learner</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract portfolio illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card"><div class="avatar">S</div><p class="card-kicker">A LITTLE ABOUT ME</p><h2>Learn.<br>Build.<br>Grow.</h2><div class="card-line"></div><p class="card-foot">AI & Data Science</p></div>
+        <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span><span class="floating-tag">Always learning ↗</span>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="container about-grid">
+        <div><p class="eyebrow">01 / ABOUT</p><h2 class="section-title">A little about <span>me.</span></h2></div>
+        <div class="about-text"><p>I’m currently pursuing my second year in Artificial Intelligence and Data Science. I’m building my foundation in programming and web development while exploring how technology can solve everyday problems.</p><p>I believe in learning by doing. Each project gives me a chance to improve my skills, work through challenges, and create something meaningful.</p><div class="mini-facts"><div><strong>2nd</strong><span>Year student</span></div><div><strong>8.6</strong><span>CGPA</span></div><div><strong>2</strong><span>Featured projects</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">02 / WHAT I WORK WITH</p><h2 class="section-title">Skills & <span>interests.</span></h2>
+      <p class="section-intro">Technologies and areas I’m learning and developing through coursework and projects.</p>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><p>C · Java · Python</p></article>
+        <article class="skill-card"><div class="skill-icon">✧</div><h3>Web development</h3><p>HTML · CSS · JavaScript</p></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Tools</h3><p>Git · GitHub · VS Code</p></article>
+        <article class="skill-card"><div class="skill-icon">◎</div><h3>Interests</h3><p>AI · Data Science · Problem solving</p></article>
+      </div>
+      <p class="small-note">This section reflects current learning areas. It can be updated as new skills are gained.</p>
+    </section>
+
+    <section class="section soft" id="projects">
+      <div class="container"><p class="eyebrow">03 / SELECTED WORK</p><h2 class="section-title">Projects I've <span>worked on.</span></h2><p class="section-intro">A couple of ideas focused on practical, everyday needs.</p>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card"><div class="project-number">01</div><div class="project-symbol">♧</div><h3>Food Wastage Reduction Management and Expiry Alerts</h3><p>A concept for tracking food availability and expiry dates, helping reduce avoidable food waste through timely alerts and clear item records.</p><div class="tags"><span>Food management</span><span>Expiry alerts</span></div></article>
+          <article class="project-card"><div class="project-number">02</div><div class="project-symbol">▦</div><h3>Hostel Mess Management System</h3><p>A system concept to organize hostel mess information and make everyday mess management more convenient for students and administrators.</p><div class="tags"><span>Management system</span><span>Student-focused</span></div></article>
+        </div>
+        <p class="small-note" id="projectStatus" aria-live="polite">Project details are loaded from the portfolio database when it is connected.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <p class="eyebrow">04 / MY JOURNEY</p><h2 class="section-title">Education & <span>experience.</span></h2>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">CURRENT · 2ND YEAR</p><h3>B.E. — Artificial Intelligence and Data Science</h3><p>Undergraduate student · CGPA: 8.6</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">INTERNSHIP · CURRENTLY PURSUING</p><h3>Thiranex</h3><p>Currently pursuing an internship and gaining practical exposure.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid"><div><p class="eyebrow">05 / GET IN TOUCH</p><h2 class="section-title">Have an idea?<br><span>Let's talk.</span></h2><p class="contact-copy">I'm open to learning opportunities, collaboration, and connecting with people who enjoy building useful things.</p><a class="email-link" href="mailto:samruddhishetty62@gmail.com">samruddhishetty62@gmail.com ↗</a></div>
+        <form class="contact-form" id="contactForm"><label for="name">Your name</label><input id="name" name="name" required maxlength="80" placeholder="Enter your name"><label for="email">Email address</label><input id="email" name="email" type="email" required maxlength="120" placeholder="you@example.com"><label for="message">Message</label><textarea id="message" name="message" rows="4" required maxlength="1500" placeholder="Write your message..."></textarea><button class="button primary" type="submit">Send message <span>↗</span></button><p id="formStatus" class="form-status" aria-live="polite"></p></form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">S<span>.</span></a><p>Designed & built with curiosity by Samruddhi Shetty.</p><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
